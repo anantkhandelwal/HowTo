@@ -1,0 +1,8 @@
+<Context>
+<Resources name="jdbc/recycle"
+           auth="Container" type="javax.sql.DataSource"
+           maxActive="20" maxIdle="5" maxWait="10000"
+           username="anant" password="coding"
+           driverClassName="com.mysql.jdbc.Driver"
+           url='jdbc:mysql://Localhost:3306/X2Recycle?useSSL=false&amp;amp;serverTimezone=UTC'/>
+</Context>
